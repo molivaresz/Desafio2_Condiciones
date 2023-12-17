@@ -1,6 +1,7 @@
 const bordeimg = document.getElementById('borde')
 const imagen = document.getElementById('imagen')
 
+//funcion que permite agregar o quitar borde
 function chng_borde() {
     const validaborde = bordeimg.classList.contains('border')
     if (validaborde == false) {

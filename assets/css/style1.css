@@ -11,10 +11,12 @@
     align-items: center;
 }
 
+/*estilo de borde que se agrega o quita en javascript*/
 .border {
     border: 2px solid red;
 }
 
+/*ancho, alto de imagen*/
 img {
     width: 20em;
     height: 15em;

@@ -17,26 +17,15 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 40px 0px;;
 }
 
-.sticker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*ancho, alto de imagen*/
-img {
-    width: 20em;
-    height: 15em;
-}
-
-/*Cajas de texto*/
-.stkinput {
-    width: 10em;
+/*ancho, margen de los select*/
+.lista {
+    width: 7em;
+    margin: 1em
 }
 
 /*Resultado*/
